@@ -1,1 +1,12 @@
 <div class="container" #wrapper></div>
+
+<ng-template #contentProjection>
+  @if(isRemember){
+  <h1>project the content into a dynamic component</h1>
+  <p>remember me</p>
+  } @else {
+  <h1>project the content into a dynamic component</h1>
+  <p>don't remember me</p>
+
+  }
+</ng-template>
