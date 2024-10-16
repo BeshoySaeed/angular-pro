@@ -1,0 +1,9 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="remember">
+      <input formControlName="remember" type="checkbox" id="remember" />
+      Remember me
+    </label>
+  </div>
+  <button type="submit">submitted</button>
+</form>
