@@ -1,0 +1,12 @@
+<p>id-number-input-field works!</p>
+
+<input type="text" appFormatId />
+
+<div class="container">
+  <p tooltip="3 digits as input" #tooltip="tooltip"></p>
+
+  <div class="btn-group">
+    <button (click)="tooltip.show()">show</button>
+    <button (click)="tooltip.hide()">hide</button>
+  </div>
+</div>
